@@ -1,0 +1,189 @@
+html {
+	 -webkit-box-sizing: content-box;
+     -moz-box-sizing: content-box;
+          box-sizing: content-box;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px;
+}
+
+/*---------------------------------------------------*/
+/* HEADER */
+/*---------------------------------------------------*/
+
+header {
+	background-color: yellow;
+	border-bottom: 1px solid black;
+}
+
+.website-banner {
+  width: 50%;
+}
+
+.navigation ul {
+	list-style: none;
+	text-align: center;
+}
+
+.navigation li {
+	display: inline-block;
+	margin: 0 40px;
+}
+
+.navigation li a:link,
+.navigation li a:active {
+	text-decoration: none;
+	color:black;
+	font-size: 100%;
+	border-bottom: 2px solid transparent;
+
+}
+
+.navigation li a:hover {
+	transition: border-bottom 0.5s;
+	border-bottom: 2px solid black;
+	padding-bottom: 3px;
+}
+
+/*---------------------------------------------------*/
+/* MAIN PAGE GRID */
+/*---------------------------------------------------*/
+
+.grid {
+	width:249px;
+	height:120px;
+	display: inline-block;
+	background-color:yellow;
+	margin: 20px 0 0 55px;
+
+}
+
+.grid-title {
+	text-align: center;
+}
+
+/*---------------------------------------------------*/
+/* CONTENT */
+/*---------------------------------------------------*/
+
+.page-wrapper {
+	background-color: white;
+	width: 80%;
+	display: inline-block;
+  margin-left: 10%;
+	
+}
+
+.main-site-content {
+	padding:20px;
+	background-color: white;
+	font-size: 90%;
+}
+
+.help-us-content {
+	clear: both;
+	padding:20px;
+	background-color: white;
+}
+
+ol li {
+	margin-bottom: 30px;
+}
+
+li a {
+	text-decoration: none;
+	color: black;
+}
+
+/*li a:hover {
+	text-decoration: underline;
+	color: black;
+}*/
+
+.get-in-touch-box {
+	float: right;
+	background-color: #CCC;
+}
+
+.get-in-touch-content {
+	padding: 3px 10px;
+}
+
+.get-in-touch-content ul {
+	list-style: none;
+	padding: 0;
+}
+
+
+/*---------------------------------------------------*/
+/* IMAGE */
+/*---------------------------------------------------*/
+
+.help-us-image {
+	width:50%;
+	display: block; 
+	
+}
+
+.just-giving-image-link {
+	display: block;
+	margin-top:100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*---------------------------------------------------*/
+/* FORMS */
+/*---------------------------------------------------*/
+
+.contact-form {
+	width: 300px;
+	margin:auto;
+}
+
+.contact-form input, textarea {
+	display:block;
+	margin: 10px 0 10px 0;
+}
+
+/*---------------------------------------------------*/
+/* FOOTER*/
+/*---------------------------------------------------*/
+
+.footer {
+	position: relative;
+	clear: both;
+  bottom: 0;
+	padding:0;
+	width:100%;
+	border-top:1px solid yellow;
+	margin-top: 30px;
+}
+
+.footer-navigation ul {
+	list-style: none;
+	text-align: center;
+	margin:7px;
+}
+
+.footer-navigation li {
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 20px;
+}
+
+.footer-navigation li a {
+	text-decoration: none;
+	color: black;
+}
+
+.charity-details-footer {
+	text-align: center;
+	font-size: 12px;
+	margin: 0 40px;
+}
